@@ -34,7 +34,8 @@ export default function Demo({}: DemoProps) {
     },
     [users],
   );
-
+  
+  console.log("Check render")
   return (
     <div className='tutorial'>
       <div className='align-center mb-2 flex'>
