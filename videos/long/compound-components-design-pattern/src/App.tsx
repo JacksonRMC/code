@@ -19,6 +19,12 @@ export default function HomeFeedScreen() {
         <PostCard.User />
         <PostCard.Buttons />
       </PostCard>
+      <div>
+        <button onClick={() => {
+          console.log("You have worked on PostCard");
+
+        }}>Toggle Post Card Title</button>
+      </div>
     </div>
   );
 }
